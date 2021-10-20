@@ -1,0 +1,266 @@
+.hi {
+ max-width: 100%;
+ background-color: black;
+ color: cornflowerblue;
+ font-size: 30px;
+ text-align: center;
+ padding: 20px;
+ margin-bottom: 20px;
+}
+.block_1 {
+   max-width: 300px;
+   height: 250px;
+   color: transparent;
+   background-image: url("../img/retro.jpg");
+   background-size: 50px 25px;
+   background-repeat: no-repeat;
+   background-color: rgba(100, 148, 237, 0.123);
+   background-position: center;
+   border-radius: 5px;
+   margin: 20px auto;
+   box-shadow: 0px 0px 10px 0px black;
+   
+}
+.block_2 {
+   max-width: 300px;
+   height: 250px;
+   color: transparent;
+   background-image: url("../img/retro.jpg");
+   background-size: 50px 25px;
+   background-repeat: repeat-y;
+   background-color: cornflowerblue ;
+   background-position: center;
+   border-radius: 5px;
+   margin: 20px auto;
+   box-shadow: 0px 0px 10px 0px black;
+}
+
+
+.block_3 {
+   max-width: 300px;
+   height: 250px;
+   color: transparent;
+   background-image: url("../img/retro.jpg");
+   background-size: 50px 25px;
+   border-radius: 5px;
+   margin: 20px auto;
+   box-shadow: 0px 0px 10px 0px black;
+}
+.block_4 {
+   margin: 50px auto;
+   max-width: 700px;
+   background: url("../img/retro.jpg") 0 0 no-repeat fixed;
+   padding: 100px;
+   border-radius: 5px;
+   background-size: 100% auto;
+}
+
+.list {
+   margin-top: 250px;
+}
+
+.list li {
+   text-align: right;
+   margin: 0px 50px 20px 0px;
+   min-height: 20px;
+   background: url("../img/retro.jpg") 100% 0 no-repeat;
+   background-size: 20px 15px;
+   padding: 0px 30px 0px 0px;
+}
+
+/* Work with Figma*/
+
+
+.contact {
+   max-width: 237px;
+   margin: 50px auto;
+   border: 1px solid black;
+   border-radius: 5%;
+   background-color: rgba(100, 148, 237, 0.123);
+   box-shadow: 0px 0px 10px 0px;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 20px;
+   color: #4B4B4B;
+}
+.location {
+   background: url("../img/place_24px.png") 0 23px no-repeat;
+   padding: 23px 0px 23px 30px;
+}
+.phone {
+   background: url("../img/smartphone_24px.png") 0 0 no-repeat;
+   padding: 0px 0px 23px 30px;
+}
+.mail {
+   background: url("../img/email_24px.png") 0 0 no-repeat;
+   padding: 0px 0px 23px 30px;
+}
+.time {
+   background: url("../img/timer_24px.png") 0 0 no-repeat;
+   padding: 0px 0px 23px 30px;
+}
+
+.hero_block {
+  padding: 280px 647px 408px 210px;
+  margin-bottom: 150px;
+  background: url("../img/HERO.png") top left / cover no-repeat;
+}
+
+.hero_title {
+   max-width: 583px;
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 56px;
+   line-height: 56px;
+   color: #FFFFFF;
+   margin-bottom: 48px;
+}
+
+.hero_button {
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 24px
+   letter-spacing: 0.15px;
+   text-transform: uppercase;
+   color: white;
+   background: linear-gradient(135deg, #890000 73%, #ff2626 74%);
+   padding: 18px 55px 18px 18px;
+}
+
+/*Extra*/
+
+.impact_container {
+   max-width: 1440px;
+   height: 608px;
+   margin: 0px auto;
+   background-color: #02133C;
+   background-image: url("../img/extra_img/overlay_image.png");
+}
+
+.red_car {
+   display: inline-block;
+   padding-left: 732px;
+   margin-top: -470px;
+}
+
+
+.impact_block{
+   max-width: 1022px;
+   margin: 0px auto;
+   padding-top: 111px;
+}
+
+.impact_subtitle{
+   background: url("../img/extra_img/Overline_Mark.png") no-repeat;
+   background-size: 17px 16px;
+   padding: 0px 0px 25px 20px;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 17px;
+   align-items: center;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   color: #D5D5D5;
+}
+
+.impact_title{
+   max-width: 411px;
+   padding-bottom: 75px;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #FFFFFF;
+}
+
+.oil_block {
+   max-width: 237px;
+   height: 76px;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #C40B0B;
+}
+
+.icons_bar {
+   margin: 0px auto;
+   max-width: 1020px;
+}
+.oil_block {
+   display: inline-block;
+   background: url("../img/extra_img/car_oil-24x.png") 0 0 no-repeat;
+   width: 225px;
+   padding-left: 80px;
+}
+.oil_subtitle {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #C40B0B;
+}
+.oil_title {
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #F5F5F5;
+}
+
+.transmission_block {
+   display: inline-block;
+   background: url("../img/extra_img/car_transmission_24x.png") 0 0 no-repeat;
+   width: 255px;
+   height: 76px;
+   padding-left: 80px;
+}
+
+.transmission_subtitle {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #c40b0b;
+}
+
+.transmission_title {
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #F5F5F5;
+}
+
+.alignments_block {
+   display: inline-block;
+   background: url("../img/extra_img/car_alignment_24x.png") 0 0 no-repeat;
+   width: 225px;
+   padding: 0px 0px 10px 80px;
+}
+.alignments_subtitle {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #c40b0b;
+}
+.alignments_title {
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #F5F5F5;
+}
+
+.engines_block {
+   display: inline-block;
+   background: url("../img/extra_img/car_engine_2_24x.png") 0 0 no-repeat;
+   width: 225px;
+   padding: 0px 0px 10px 80px;
+   margin-left: 20px;
+}
+.engines_subtitle {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #c40b0b;
+}
+.engines_title {
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #F5F5F5;
+}
